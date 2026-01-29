@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROMHub - Browser N64 Emulator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎮</text></svg>">
+    <style>
+        /* Critical initial styles */
+        body { margin: 0; padding: 20px; font-family: monospace; background: #111; color: #eee; }
+        .warning { background: #900; color: white; padding: 15px; border-radius: 5px; margin: 20px 0; }
+        .container { max-width: 1200px; margin: 0 auto; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 ROMHub (Nova-64)</h1>
+        <div class="warning">
+            <strong>⚠️ PROJECT UNDER CONSTRUCTION ⚠️</strong><br>
+            N64 emulator core verification in progress. No functionality available yet.
+        </div>
+        
+        <div id="app">
+            <!-- Will be populated by JavaScript -->
+            <p>Loading project infrastructure...</p>
+        </div>
+        
+        <div class="warning" style="position: fixed; bottom: 0; left: 0; right: 0; margin: 0;">
+            <strong>LEGAL NOTICE:</strong> Uploaded ROMs are processed LOCALLY in your browser only. No game files are stored on our servers. You must own original copies of any games you play.
+        </div>
+    </div>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
