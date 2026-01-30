@@ -1,4 +1,4 @@
-# ROMHub (Nova-64)
+# ROMHub
 
 A browser-based N64 emulator that runs entirely client-side. Upload ROMs from your device, play in browser, save progress locally.
 
