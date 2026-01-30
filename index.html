@@ -151,14 +151,14 @@
             <!-- BEFORE LOAD -->
             <div rv-if="data.beforeEmulatorStarted">
                 <button id="btnUploadRom" class="btn btn-primary mt-4" onclick="myApp.uploadBrowse()"
-                        rv-disabled="data.moduleInitializing">Load ROM</button>
+                       >Load ROM</button>
                 <button type="button" class="btn btn-primary mt-4" id="btnRemap" onclick="myApp.showRemapModal()">
                     Settings
                 </button>
 
                 <div class="form-check" style="margin-top: 13px;" rv-if="data.settings.SHOWADVANCED">
                     <label class="form-check-label" style="margin-right: 10px;">
-                        <input type="checkbox" class="form-check-input" rv-checked="data.chkAdvanced" rv-disabled="data.moduleInitializing">
+                        <input type="checkbox" class="form-check-input" rv-checked="data.chkAdvanced">
                         Advanced
                     </label>
                 </div>
