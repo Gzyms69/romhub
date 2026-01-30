@@ -219,6 +219,13 @@ class MyClass {
             this.WriteConfigFile();
             this.initAudio();
             await this.LoadSram();
+
+            // Ensure canvas is set
+            if (!Module.canvas) {
+                Module.canvas = document.getElementById('canvas');
+                console.log('ROMHub: Canvas set in LoadEmulator', Module.canvas);
+            }
+
             Module.callMain(['custom.v64']);
             this.findInDatabase();
             this.configureEmulator();
