@@ -6,7 +6,6 @@ bower_components/
 dist/
 build/
 *.js.map
-*.min.js
 
 # Environment
 .env
